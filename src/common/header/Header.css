@@ -17,11 +17,10 @@
   padding: 20px 0;
 }
 .search .logo img {
-  width: auto;
-  height: auto;
+  width: 100%;
 }
 .search .width {
-  width: 20%;
+  width: 50px;
 }
 .search-box {
   width: 80%;
