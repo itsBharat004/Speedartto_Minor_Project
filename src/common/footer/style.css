@@ -34,3 +34,7 @@ footer li {
   margin-bottom: 10px;
   opacity: 0.5;
 }
+.footer-outer img{
+  width: 80px;
+  border-radius: 20px 0 20px 0;
+}

@@ -4,35 +4,35 @@ const Catg = () => {
   const data = [
     {
       cateImg: "./images/category/cat-1.png",
-      cateName: "Apple",
+      cateName: "Ship-rocket",
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Samasung",
+      cateName: "Quicker",
     },
     {
       cateImg: "./images/category/cat-1.png",
-      cateName: "Oppo",
+      cateName: "Delhivery",
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Vivo",
+      cateName: "Xpress Bees",
     },
     {
       cateImg: "./images/category/cat-1.png",
-      cateName: "Redimi",
+      cateName: "Showdow Fax",
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Sony",
+      cateName: "Blue Dart",
     },
   ]
   return (
     <>
       <div className='category'>
         <div className='chead d_flex'>
-          <h1>Brands </h1>
-          <h1>Shops </h1>
+          <h1>Shipping </h1>
+          <h1>Partners </h1>
         </div>
         {data.map((value, index) => {
           return (
@@ -42,9 +42,6 @@ const Catg = () => {
             </div>
           )
         })}
-        <div className='box box2'>
-          <button>View All Brands</button>
-        </div>
       </div>
     </>
   )
